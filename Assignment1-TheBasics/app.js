@@ -5,7 +5,7 @@ const port = 3000;
 const server = http.createServer((req, res) => {
     const url = req.url;
     const method = req.method;
-
+    res.setHeader('Content-Type','text/html');
     if(url==='/' && method==='GET')
     {
         res.write('<html><body><h3>Welcome to the basics</h3>');
