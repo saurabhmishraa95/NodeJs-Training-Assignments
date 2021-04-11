@@ -1,0 +1,9 @@
+h1 {
+    color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+h1:hover{
+    color: green;
+}
